@@ -4,6 +4,6 @@
 
 int main()
 {
-    /// ovde ti uradi unos
+
     return 0;
 }

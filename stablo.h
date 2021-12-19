@@ -6,7 +6,7 @@ typedef struct Node
     int data;
     struct Node* left;
     struct Node* right;
-} node;
+}node;
 
 int broj_cvorova(node* root);
 int broj_listova(node* root);
@@ -14,5 +14,8 @@ int proizvod_cvorova(node* root);
 int broj_prostih(node* root);
 int najmanji(node* root);
 float prosek(node* root);
+node* novi(int value);
+node* dodaj(node** root, int value);
+void print(node* root);
 
 #endif // STABLO_H_INCLUDED

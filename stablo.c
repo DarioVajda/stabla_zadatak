@@ -23,3 +23,32 @@ int minimum(node* root)
     else
         return root->data;
 }
+
+node* novi(int value)
+{
+    node* n = (node*)malloc(sizeof(node));
+    n->left = NULL;
+    n->right = NULL;
+    n->data = value;
+    return n;
+}
+
+node* dodaj(node** root, int value)
+{
+    if(*root == NULL)
+        root = novi(value);
+    else if(value <= (*root)->data)
+        dodaj(&(*root)->left, value);
+    else
+        dodaj(&(*root)->right, value);
+}
+
+void print(node* root)
+{
+    if(root==NULL)
+        return;
+    printf("%d ", root->data);
+    print(root->left);
+    print(root->right);
+}
+
