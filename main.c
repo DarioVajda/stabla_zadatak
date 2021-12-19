@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "stablo.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    /// ovde ti uradi unos
     return 0;
 }
