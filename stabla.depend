@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1639938288 source:c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\main.c
+1639941688 source:c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\main.c
 	<stdio.h>
 	<stdlib.h>
 	"stablo.h"
 
-1639938532 c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\stablo.h
+1639941585 c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\stablo.h
 
-1639938323 source:c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\stablo.c
+1639941621 source:c:\users\dario vajda\onedrive\desktop\škola\3. razred\programiranje\stabla\stablo.c
 	"stablo.h"
 	<math.h>
 	<stdio.h>
